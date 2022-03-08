@@ -1,9 +1,11 @@
 ---
 layout: post
-title: You're up and running!
+title: '03.08.2022 15:12'
 published: true
 ---
 
-## Bro, maybe I can finna get this to work. Using Markdown
-![dannnnnnnnnnnng.jpg]({{site.baseurl}}/_posts/dannnnnnnnnnnng.jpg)
+## It just so happened.
+
+> I love Dubh
+
 
