@@ -7,5 +7,3 @@ published: true
 ## It just so happened.
 
 > I love Dubh
-
-
