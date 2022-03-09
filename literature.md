@@ -1,8 +1,8 @@
 ## Literature; Short Reads
 
-<div class="posts">
+<div class="stories">
   {% for post in site.posts %}
-    <article class="post">
+    <article class="stories">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
