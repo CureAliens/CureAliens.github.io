@@ -1,8 +1,8 @@
 ---
 published: true
-layout: post
+layout: story
 title: Test for stories
 ---
 
 ## 121hla 
-akl
+LJJJJJJJJJJJJJJJJJJJ
