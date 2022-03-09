@@ -1,19 +1,4 @@
---- 
-layout: default
-publish: true
----
+# March 09, 2022:
 
-<div class="stories">
-  {% for story in site.stories %}
-    <article class="story">
+> Work at the motorpool killed my game.
 
-      <h1><a href="{{ site.baseurl }}{{ story.url }}">{{ story.title }}</a></h1>
-
-      <div class="entry">
-        {{ story.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ story.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
