@@ -8,23 +8,43 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-<!-- wp:heading -->
-<h2><em>Literature of and for the Ubermensch. </em></h2>
-<!-- /wp:heading -->
 
-<!-- wp:quote -->
-<blockquote class="wp-block-quote"><p>Clean and simple website. </p><cite>To find, share, explore, grow.</cite></blockquote>
-<!-- /wp:quote -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-<!-- wp:image {"id":149,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://selfishoverman.files.wordpress.com/2022/03/article-2490051-193bd36d00000578-21_964x954-2-edited-1.jpg" alt="" class="wp-image-149"/></figure>
-<!-- /wp:image -->
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
 
-<!-- wp:latest-posts {"categories":"","postsToShow":3,"displayPostContent":true,"displayPostDate":true,"postLayout":"grid","className":"is-style-borders"} /-->
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ article-2490051-193BD44F00000578-967_964x952.jpg }}" /></a>
 
-<!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button /--></div>
-<!-- /wp:buttons -->
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+
+          <nav>
+            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
 
     {% include analytics.html %}
   </body>
