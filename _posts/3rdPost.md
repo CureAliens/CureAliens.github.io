@@ -1,6 +1,9 @@
 ---
 published: false
+layout: post
 ---
 ## March 09, 2022
 
-# I am a stranger to no land.
+# __I am a stranger to no land.
+
+
