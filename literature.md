@@ -1,17 +1,16 @@
-layout: page
-permalink: /literature/
 
-<div class="stories">
-  {% for story in site.stories %}
-    <article class="story">
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ story.url }}">{{ story.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        {{ story.excerpt }}
+        {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ story.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
+
