@@ -2,11 +2,12 @@
 layout: default
 published: true
 ---
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
+<div class="row">
+  <div class="leftcolumn">
+	<div class="posts">
+ 	 {% for post in site.posts %}
+ 	   <article class="post">
+	
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
@@ -16,8 +17,10 @@ published: true
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
+      </div>
 </div>
 
+  <div class="rightcolumn">
 <div class="stories">
   {% for story in site.stories %}
     <article class="story">
@@ -31,4 +34,7 @@ published: true
       <a href="{{ site.baseurl }}{{ story.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
+	</div>
+    </div>
+    
 </div>
