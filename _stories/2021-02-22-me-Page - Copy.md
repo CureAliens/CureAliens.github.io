@@ -1,3 +1,11 @@
+---
+published: true
+layout: post
+title: 'Test for stories'
+---
+
+##  checkers
+
 
 
 <html lang="en">
