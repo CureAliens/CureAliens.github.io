@@ -1,4 +1,19 @@
-## March 09, 2022:
-## Stories
-> List
+  <div class="rightcolumn">
+<div class="stories">
+  {% for story in site.stories %}
+    <article class="story">
+
+      <h1><a href="{{ site.baseurl }}{{ story.url }}">{{ story.title }}</a></h1>
+
+      <div class="entry">
+        {{ story.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ story.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+	</div>
+    </div>
+    
+</div>
 
