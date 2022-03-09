@@ -1,15 +1,15 @@
 
 <div class="stories">
-  {% for post in site.posts %}
+  {% for post in site.stories %}
     <article class="stories">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}{{ stories.url }}">{{ stories.title }}</a></h1>
 
       <div class="entry">
-        {{ post.excerpt }}
+        {{ stories.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ stories.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
