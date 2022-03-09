@@ -278,26 +278,6 @@ nav {
     font-style: italic;
   }
 
-.stories > .story {
-	padding-bottom: 2em;
-    border-bottom: 1px solid $lightGray;
-  }
-  
-
-.stories > .story:last-child {
-	padding-bottom: 1em;
- 	border-bottom: none;
-}
-
-.story {
-	blockquote {
-    	 margin: 1.0em .5em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 15px;
-    font-style: italic;
-   }
 
   .comments {
     margin-top: 10px;
