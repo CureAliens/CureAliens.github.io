@@ -1,9 +1,3 @@
----
-layout: default
-published: true
----
-
-
 <div class="stories">
   {% for story in site.stories %}
     <article class="story">
