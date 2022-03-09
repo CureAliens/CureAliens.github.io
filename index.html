@@ -6,7 +6,7 @@ published: true
   <div class="leftcolumn">
 	<div class="posts">
  	 {% for post in site.posts %}
- 	   <article class="post">
+ 	   <div class="post">
 	
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
@@ -15,7 +15,7 @@ published: true
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+    </div>
   {% endfor %}
       </div>
 </div>
@@ -23,7 +23,7 @@ published: true
   <div class="rightcolumn">
 <div class="stories">
   {% for story in site.stories %}
-    <article class="story">
+    <div class="story">
 
       <h1><a href="{{ site.baseurl }}{{ story.url }}">{{ story.title }}</a></h1>
 
@@ -32,9 +32,9 @@ published: true
       </div>
 
       <a href="{{ site.baseurl }}{{ story.url }}" class="read-more">Read More</a>
-    </article>
+    </div>
   {% endfor %}
 	</div>
     </div>
     
-</div>
+</div> 
