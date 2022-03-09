@@ -1,4 +1,4 @@
-## Literature; Short Reads
+
 <div class="stories">
   {% for post in site.posts %}
     <article class="stories">
@@ -13,4 +13,3 @@
     </article>
   {% endfor %}
 </div>
-
